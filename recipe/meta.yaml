@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -29,9 +29,12 @@ test:
   imports:
     - dvc_s3
   requires:
+    - git
     - pip
   commands:
     - pip check
+    - dvc version
+    - dvc version | grep s3
 
 about:
   home: https://github.com/iterative/dvc-s3
