@@ -1,11 +1,11 @@
-About dvc-s3
-============
+About dvc-s3-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dvc-s3-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/iterative/dvc-s3
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dvc-s3-feedstock/blob/main/LICENSE.txt)
 
 Summary: Amazon S3 plugin for DVC
 
